@@ -1,0 +1,147 @@
+  /*h1 {
+     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; 
+  }  
+  h2 {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        text-align: center;
+   }*/
+
+
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: rgb(97, 73, 25);
+    margin: 0;
+    padding: 0;
+    background-image: url('https://image.lexica.art/full_webp/957c2240-15ef-438a-8aae-66f68e16b3c7');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 35px;
+
+  }
+
+  label {
+    color: rgb(97, 73, 25);
+  }
+
+  input {
+    cursor: pointer;
+    width: 100% !important;
+  }
+
+  .content {
+    padding: 20px 20px 20px 20px;
+    width: 60vh;
+    min-height: 55vh ;
+    height: auto;
+    /*background: radial-gradient(circle, rgba(233, 223, 192, 1) 0%, rgba(229, 183, 127, 1) 100%);
+    */border-radius: 10px;
+    margin-left: 5px;
+    text-align: center;
+    border: 1px solid #000000;
+    margin-bottom: 5px;
+    background-color: rgba(238, 214, 179, 0.733);
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .reservas {
+    text-align: center;
+  }
+
+  .boton {
+    background: radial-gradient(circle, rgb(128, 99, 42) 0%, rgb(133, 89, 31) 100%);
+    cursor: pointer;
+    color: #fff;
+  }
+
+  .boton:hover {
+    background: radial-gradient(circle, rgba(97, 73, 25, 1) 0%, rgb(82, 51, 11) 100%);
+    color: rgb(255, 255, 255);
+
+  }
+
+  #weather {
+    font-size: 26px;
+    color: #000000;
+    /* Un color de texto tenue */
+    margin-bottom: 20px;
+    background-color: rgb(229, 183, 127);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #000000;
+  }
+
+
+  .imgClima {
+    width: 50px;
+    height: 50px;
+  }
+  #reservations {
+    margin-bottom: 20px;
+    color: black;
+    background-color: rgb(229, 183, 127);
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    max-height: 120px; /* Ajusta este valor según tus necesidades */
+    overflow: auto; /* Agrega barras de desplazamiento cuando sea necesario */
+ }
+ 
+ #reservations li {
+    margin-bottom: 10px;
+ }
+ 
+
+  #reservationForm {
+    background-color: rgb(229, 183, 127);
+    /* A white background color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0px 20px 0px 20px;
+    display: flex;
+    /* Make the form a flex container */
+    flex-direction: column;
+    /* Stack the elements vertically */
+    flex-wrap: nowrap;
+    /* Prevent the items from wrapping onto multiple lines */
+    max-width: 500px;
+    border: 1px solid #000000;
+  }
+
+  #reservationForm input,
+  #reservationForm select {
+    display: block;
+    border: 1px solid #000000;
+    /* A subtle border */
+    border-radius: 5px;
+    width: 100%;
+    /* Make the input and select elements take up 50% of the container's width */
+  }
+
+  #reservationForm button {
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: auto;
+    /* Push the button to the bottom */
+  }
